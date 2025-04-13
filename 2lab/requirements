@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+alembic
+passlib[bcrypt]
+python-jose[cryptography]
+pydantic
+pydantic-settings
+redis
+celery
+requests          # Для HTTP-запросов при парсинге
+beautifulsoup4   # Для парсинга HTML
+networkx         # Для построения графа
