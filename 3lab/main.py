@@ -1,8 +1,14 @@
+from fastapi import FastAPI
+from app.api.v1.routes import router as api_router
 
-def main():
-    # Ваш код здесь
-    pass
+app = FastAPI()
 
-if __name__ == "__main__":
-    main()
+
+app.include_router(api_router, prefix="/api/v1")
+
+
+
+
+
+
 
